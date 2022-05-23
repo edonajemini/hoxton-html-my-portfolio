@@ -19,7 +19,7 @@ container {
     display: grid;
     grid-template-rows: repeat(auto-fit, repeat(200px, 2px));
     gap: 1rem;
-    background-color: rgba(255, 0, 0, 0.457);
+    background-color: rgba(236, 212, 212, 0.457);
 
 }
 header {
@@ -49,7 +49,7 @@ text-decoration: none;
     color: gray;
 }
 nav {
-    
+
     padding: 15px;
     list-style: none;
     display: grid;
@@ -77,15 +77,44 @@ nav {
 .second {
     grid-area: second;
     display:grid;
-    background-color: rgba(238, 211, 238, 0.546);
+    background-color: rgba(236, 212, 212, 0.457);
+
 }
+.second h3 {
+    padding-top: 100px;
+    padding-left: 500px;
+    text-decoration:overline;
+
+}
+
+.second_projects {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  .project {
+    border: 1px solid rgb(254, 245, 245);
+    box-shadow:0px 2px 5px 2px rgba(157, 114, 114, 0.75);
+    border-radius: 10px;
+  }
+  
+  .project a {
+    text-decoration: initial;
+    color: initial;
+  }
+  
 .third {
     grid-area: third;
     display: grid;
-    background-color:rgba(255, 0, 0, 0.494);
+    background-color:rgba(236, 212, 212, 0.457);;
 }
 .fourth {
     grid-area: fourth;
     display: grid;
-    background-color: rgb(213, 116, 116);
+    background-color: rgba(236, 212, 212, 0.457);;
 }
