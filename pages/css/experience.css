@@ -22,7 +22,7 @@ header {
 }
 .current-page {
     padding: 15px; 
-    color: gray;
+    color: rgb(188, 138, 138);
 }
 nav {
     text-decoration:none;
