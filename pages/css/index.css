@@ -27,7 +27,7 @@ header {
     margin-top: 30px;
     margin-left: 20px;
     margin-right:20px ;
-    margin-bottom: 350px;
+    margin-bottom: auto;
     text-transform: capitalize;
     color: gray;
     padding: 15px;
@@ -44,13 +44,25 @@ justify-content: space-between;
 text-decoration: none;
 
 }
+.current-page {
+    padding: 15px; 
+    color: gray;
+}
+nav {
+    
+    padding: 15px;
+    list-style: none;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    gap: 1rem;
+  }
 
 .profile{
     grid-area: profile;
     margin-top: 250px;
     margin-left: 100px;
     margin-right:100px ;
-    margin-bottom:auto;
     text-transform: capitalize;
     color: rgba(145, 63, 63, 0.576);
     padding: 15px;
