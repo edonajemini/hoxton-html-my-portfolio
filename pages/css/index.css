@@ -15,10 +15,15 @@ container {
 .first {
     grid-area: first;
     display: grid;
-    grid-template-rows: header 80px;
+    list-style: none;
+    display: grid;
+    grid-template-rows: repeat(auto-fit, repeat(200px, 2px));
+    gap: 1rem;
     background-color: rgba(255, 0, 0, 0.457);
+
 }
 header {
+    grid-area: header;
     margin-top: 30px;
     margin-left: 20px;
     margin-right:20px ;
@@ -29,6 +34,29 @@ header {
     background-color: white;
     display: flex;
     align-items: center;
+    outline: none;
+    justify-content: space-between;
+    box-shadow: 0px 2px 5px -2px rgba(197, 189, 189, 0.75);
+}
+nav{
+display: flex;
+justify-content: space-between;
+text-decoration: none;
+
+}
+
+.profile{
+    grid-area: profile;
+    margin-top: 250px;
+    margin-left: 100px;
+    margin-right:100px ;
+    margin-bottom:auto;
+    text-transform: capitalize;
+    color: rgba(145, 63, 63, 0.576);
+    padding: 15px;
+    background-color: rgb(220, 197, 197);
+    display: grid;
+    align-items: top;
     outline: none;
     justify-content: space-between;
     box-shadow: 0px 2px 5px -2px rgba(197, 189, 189, 0.75);
